@@ -432,7 +432,7 @@ if __name__ == '__main__':
 
         elif 'news' in query:
             try:
-                jsonObj = urlopen("http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=eb770e5d10de4bcd842d74bda645df70")
+                jsonObj = urlopen("https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=eb770e5d10de4bcd842d74bda645df70")
                 data = json.load(jsonObj)
                 i=1
 
